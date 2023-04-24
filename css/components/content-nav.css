@@ -1,0 +1,17 @@
+.main-content-nav{
+    justify-content: space-between;
+}
+
+.btn-page{
+ color:var(--clr6);
+ font-family: 'lato' , monospace;
+ font-size: 1.125rem ;
+ background: none;
+ border: 0;
+ width: 95px;
+ height: 14px;
+}
+
+.btn-page:hover{
+    cursor: pointer;
+}

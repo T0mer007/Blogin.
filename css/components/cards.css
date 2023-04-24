@@ -1,0 +1,30 @@
+
+.card-image{
+   max-width: 469px;
+   min-width: 360px;
+    margin-bottom: 1.6rem;
+    grid-column: 1/2;
+}
+.card{
+    gap:40px
+}
+.card-items{
+    grid-column: 2/3;
+    
+}
+
+.card-btn{
+    width: 187px;
+    height: 41px;
+    color: var(--clr2);
+    border: var(--clr2) solid 1px;
+    border-radius: 100px;
+    font-family: 'lato', monospace;
+    background-color: #fff;
+}
+
+.card-btn:hover{
+    color: #58c93a;
+    border-color: #58c93a;
+    cursor: pointer;
+}

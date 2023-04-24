@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'lato', monospace;
+    line-height: 1.742857;
+}
+
+body {
+    margin: 0;
+    font-size: 0.875rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400;
+    margin: 0 0 1em;
+}
+
+h2 {
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--clr4);
+}
+
+p {
+    margin-bottom: 2em;
+    color: var(--clr3);
+    size: 1em;
+}
+
+img {
+    width: 100%;
+}

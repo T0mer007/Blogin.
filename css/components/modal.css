@@ -1,0 +1,112 @@
+.modal {
+    background-color: #efefefce;
+    position: fixed;
+    top: 10%;
+    width: 90%;
+    max-width: 600px;
+    translate: 7%;
+    grid-column: 2;
+    border-radius: 2em;
+    grid-template-columns: 50px 1fr 50px;
+    grid-template-rows: repeat(2, 100px) repeat(2, 60px);
+    align-items: center;
+    justify-items: center;
+    display: grid;
+    visibility: hidden;
+}
+
+.btn-modal-close {
+    grid-column: 3;
+    grid-row: 1;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    border: none;
+    background-color: rgba(195, 194, 194, 0.673);
+    border-radius: 50%;
+    color: rgb(237, 237, 237)
+}
+
+.modal-top-txt {
+    text-transform: uppercase;
+    font-size: 1.4em;
+    font-weight: 600;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.modal-bottom-txt {
+    grid-column: 2;
+    grid-row: 2
+}
+
+.modal-mail-input {
+    grid-column: 2;
+    max-width: 280px;
+    height: 20px;
+}
+
+.btn-modal-submit {
+    grid-column: 2;
+    width: 80px;
+    height: 20px;
+}
+
+.visible {
+    visibility: visible;
+}
+
+.journal-modal {
+    position:absolute;
+    top:130px;
+    background-color: #494949c0;
+    color: rgb(212, 212, 212);
+    width: 190px;
+    justify-self: center;
+    margin-left: 30%;
+    transform: translateY(-150%);
+    transition: all 0.8s ease-in-out ;
+    /* scale: 0;    */
+}
+
+.journal-menu {
+    flex-direction: column;
+}
+
+.journal-btn:hover{
+    cursor: pointer;
+   }
+
+/* .journal-btn :hover .journal-modal{
+    transform: translateY(0);
+    /* scale: 1; */
+   /* } */
+
+
+.journal-menu li {
+    border: none;
+    border-bottom: 2px solid rgb(67, 67, 67);
+    cursor: pointer;
+}
+
+.journal-menu li:hover a {
+    color: var(--clr7);
+
+}
+
+.btn-journal-close {
+    float: right;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    border: none;
+    background-color: rgba(195, 194, 194, 0.673);
+    border-radius: 50%;
+    color: rgb(237, 237, 237)
+}
+
+.drop-down {
+    transform: translateY(0);
+    /* scale: 1; */
+    
+}
